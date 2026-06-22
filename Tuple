@@ -1,0 +1,3 @@
+data = ("Python","Java","C++")
+
+print(data)

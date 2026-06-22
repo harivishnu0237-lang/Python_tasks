@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+
+data = [40,30,20,10]
+
+labels = ["Python","Java","C++","AI"]
+
+plt.pie(data, labels=labels)
+
+plt.show()

@@ -1,0 +1,3 @@
+result = df[df["Mark"] > 90]
+
+print(result)

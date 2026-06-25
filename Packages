@@ -1,0 +1,11 @@
+def add_student(name):
+    print("Student:", name)
+def total(m1, m2):
+    return m1 + m2
+from school import student
+from school import marks
+
+student.add_student("Hari")
+
+result = marks.total(80, 90)
+print("Total:", result)

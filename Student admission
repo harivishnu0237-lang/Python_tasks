@@ -1,0 +1,16 @@
+class Student:
+    def __init__(self, sid, name, dept, marks):
+        self.sid = sid
+        self.name = name
+        self.dept = dept
+        self.marks = marks
+
+    def display(self):
+        print(self.sid, self.name, self.dept, self.marks)
+
+
+s1 = Student(101, "Arun", "CSE", 90)
+s2 = Student(102, "Bala", "ECE", 85)
+
+s1.display()
+s2.display()

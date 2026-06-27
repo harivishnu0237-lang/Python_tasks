@@ -1,0 +1,8 @@
+def addition(a, b):
+    return a + b
+def multiplication(a, b):
+    return a * b
+from my_package import add, multiply
+
+print(add.addition(10, 5))
+print(multiply.multiplication(10, 5))

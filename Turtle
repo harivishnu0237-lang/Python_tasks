@@ -1,0 +1,21 @@
+import turtle
+
+# Create screen
+screen = turtle.Screen()
+screen.bgcolor("black")
+
+# Create turtle
+t = turtle.Turtle()
+t.color("cyan")
+t.penup()
+t.goto(-150, 0)
+t.pendown()
+
+# Write your name
+t.write("HARI VISHNU", font=("Arial", 40, "bold"))
+
+# Hide turtle
+t.hideturtle()
+
+# Keep window open
+turtle.done()
